@@ -78,6 +78,7 @@ final class IntegerStack implements shopstyle.example.Stack<Integer> {
 
     while(i < result.length) {
       result[i] = null;
+      i++;
     }
 
     stack = result;
